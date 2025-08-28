@@ -1,5 +1,8 @@
-from ingest import scan_folder
+from photocurator.ingest import scan_folder
 
-img_path = "images/istockphoto-1829241109-1024x1024.jpg"
+if __name__ == "__main__":
+    data = scan_folder("/Users/vincenttso/Documents/important")
+    print(f"Scanned {len(data['items'])} items")
 
-scan_folder(img_path)
+    for k, v in data.items():
+        print(f"{k}: {v}")

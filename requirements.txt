@@ -1,2 +1,4 @@
 pillow==11.3.0
 python-magic==0.4.27
+
+libheif
