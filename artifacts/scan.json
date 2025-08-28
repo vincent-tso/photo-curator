@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "scanned_at": "2025-08-28T10:53:02",
+  "root": "/Users/vincenttso/documents/important",
+  "counts": {
+    "total": 2,
+    "images": 2,
+    "videos": 0
+  },
+  "items": [
+    {
+      "path": "/Users/vincenttso/documents/important/identification/NZPOST_photo_190530.jpg",
+      "size": 753917,
+      "mime": "image/jpeg",
+      "exif_datetime": "2020-02-17T19:01:32"
+    },
+    {
+      "path": "/Users/vincenttso/documents/important/academics/le_wagon/Artboard - Certificate of completion.png",
+      "size": 493254,
+      "mime": "image/png",
+      "exif_datetime": "2020-01-31T18:18:16"
+    }
+  ]
+}
