@@ -6,3 +6,4 @@ if __name__ == "__main__":
 
     for k, v in data.items():
         print(f"{k}: {v}")
+        
