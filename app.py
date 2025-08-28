@@ -11,8 +11,7 @@ app = typer.Typer(help="PhotoCurator CLI")
 
 @app.command()
 def scan(
-    input: Path = typer.Argument(..., exists=True, file_okay=False, dir_okay=True, readable=True,
-                                 help="Folder of photos/videos"),
+    input: Path = typer.Argument(..., exists=True, file_okay=False, dir_okay=True, readable=True, help="Folder of photos/videos"),
     out: Path = typer.Option(Path("artifacts/scan.json"), "--out", "-o", help="Output JSON path"),
 ):
     """Scan a folder and write artifacts/scan.json."""
